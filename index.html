@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap bus</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <style type="text/css">
+.link-nav{
+  color: white;
+  text-decoration: none;
+  padding-bottom: 7px;
+}
+.link-nav:hover{
+  color: gold;
+}
+    </style>
+
+    <!--menu-->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background: gold;">
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="color:gray;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#servico" style="color:rgb(0, 0, 0);">Serviços</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" style="color:rgb(0, 0, 0);"role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Automóveis Bus
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Galeria</a></li>
+                  <li><a class="dropdown-item" href="#">Novos Modelos</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Clásicos</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre"style="color:rgb(0, 0, 0);">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"style="color:rgb(0, 0, 0);">Contato</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-secondary" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!--carrossel-->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="IMG/bus1.webp" class="d-block w-100" alt="novo modelo">
+          </div>
+          <div class="carousel-item">
+            <img src="IMG/bus2.jpg" class="d-block w-100" alt="linha exclusiva">
+          </div>
+          <div class="carousel-item">
+            <img src="IMG/bus3.jpg" class="d-block w-100" alt="top de linha">
+          </div>
+        </div>
+      </div>
+
+      <!--serviços-->
+      <section id="servico">
+        <div class="container">
+            <div clas="row">
+                <div class="col-12 text-center my-5">
+                    <h1 class="display-3"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="gold" class="bi bi-patch-exclamation-fill" viewBox="0 0 16 16">
+                        <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zM8 4c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995A.905.905 0 0 1 8 4zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                      </svg> serviços</h1>
+
+                    <p class="my-5">
+                        Conforto e qualidade durante sua viagem do Ínicio ao fim
+                        classe executiva com bar e lanchonete,água grátis, luz individual para leituras,
+                         sistema de som e TV com a mais alta qualidade, wi-fi, poltronas confortavéis e banheiro.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row justify-content-sm-center">
+                <div class="col-sm-12 col-md-4 mb-5">
+                    <div class="card">
+                        <img src="IMG/servico 1.jpg" class="card-img-top" alt="conforto" />
+                        <div class="card-body">
+                          <p class="card-text">
+                            Viagem confortável até o destino final.
+                        </p>
+                        </div>
+                      </div>
+                   </div>
+
+                  
+                    <div class="col-sm-12 col-md-4 mb-5">
+                        <div class="card">
+                            <img src="IMG/servico2.jpg" class="card-img-top" alt="internet" />
+                            <div class="card-body">
+                              <p class="card-text">
+                                mantenha-se atualizado trabalhando e viajando com a internet 5G 
+                                ajudando assim com seu trabalho home office.
+                            </p>
+                            </div>
+                          </div>
+                       </div>
+
+                     
+                        <div class="col-sm-12 col-md-4 mb-5">
+                            <div class="card">
+                                <img src="IMG/servico3.jpg" class="card-img-top" alt="classe executiva" />
+                                <div class="card-body">
+                                  <p class="card-text">
+                                    classe executiva com o mesno conforto da sua casa.
+                                </p>
+                                </div>
+                              </div>
+                           </div>
+
+
+
+                           
+                </div>
+              </div>
+        
+      </section>
+
+      <!--sobre-->
+
+      <section id="sobre">
+        <div class="container">
+            <div clas="row">
+                <div class="col-12 text-center my-5">
+                    <h1 class="display-3"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="gold" class="bi bi-patch-exclamation-fill" viewBox="0 0 16 16">
+                        <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zM8 4c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995A.905.905 0 0 1 8 4zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                      </svg> Sobre Novos Modelos de Ônibus</h1>
+
+                    <p class="my-5">
+                        Conforto e qualidade durante sua viagem do Ínicio ao fim
+                        classe executiva com bar e lanchonete,água grátis, luz individual para leituras,
+                         sistema de som e TV com a mais alta qualidade, wi-fi, poltronas confortavéis e banheiro.
+                    </p>
+                </div>
+            </div>
+
+            <div clas="container">
+                <div class="col-md-12">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/8CAdzHJf1eQ" title="YouTube video player"  allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!--contato-->
+
+      <section id="contato">
+        <div class="container">
+            <div clas="row">
+                <div class="col-12 text-center my-5">
+                      </svg>
+                    <h1 class="display-3"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="gold" class="bi bi-envelope-paper-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M6.5 9.5 3 7.5v-6A1.5 1.5 0 0 1 4.5 0h7A1.5 1.5 0 0 1 13 1.5v6l-3.5 2L8 8.75l-1.5.75ZM1.059 3.635 2 3.133v3.753L0 5.713V5.4a2 2 0 0 1 1.059-1.765ZM16 5.713l-2 1.173V3.133l.941.502A2 2 0 0 1 16 5.4v.313Zm0 1.16-5.693 3.337L16 13.372v-6.5Zm-8 3.199 7.941 4.412A2 2 0 0 1 14 16H2a2 2 0 0 1-1.941-1.516L8 10.072Zm-8 3.3 5.693-3.162L0 6.873v6.5Z"/>
+                      </svg> Contato</h1>
+
+                    <p class="my-5">
+                        Preencha os campos abaixo para saber mais, nossa equipe irá responder!.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row justify-content-sm-center mb-5">
+              <div class="col-md-12 col-md-10 col-lg-8">
+                <form class="row g-3" style="background-color:gold;">
+                  <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="inputNome">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">email</label>
+                    <input type="email" class="form-control" id="inputemail">
+                  </div>
+                  <div class="col-10">
+                    <label for="inputAddress" class="form-label">Endereço</label>
+                    <input type="text" class="form-control" id="inputAddress" ">
+                  </div>
+                  <div class="col-2">
+                    <label for="inputnum" class="form-label">Número</label>
+                    <input type="text" class="form-control" id="inputnum" ">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Cidade</label>
+                    <input type="text" class="form-control" id="inputCity">
+                  </div>
+                  <div class="col-md-4">
+                    <label for="inputState" class="form-label">Estado</label>
+                    <select id="inputState" class="form-select">
+                      <option selected>SP</option>
+                      <option>MA</option>
+                      <option>PA</option>
+                      <option>RJ</option>
+                      <option>AP</option>
+                      <option>TO</option>
+                    </select>
+                  </div>
+                  <div class="col-md-2">
+                    <label for="inputZip" class="form-label">Cep</label>
+                    <input type="text" class="form-control" id="inputZip">
+                  </div>
+                  <div class="col-12 text-center mb-4">
+                    <button type="submit" class="btn btn-success">Sign in</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!--rodapé-->
+
+      <footer class="p-5" style="background-color:black">
+         <div class="row">
+          <div clas="col-md-3 mb-4">
+            <h6 class="display-6 text-light"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="gold" class="bi bi-envelope-paper-fill" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M6.5 9.5 3 7.5v-6A1.5 1.5 0 0 1 4.5 0h7A1.5 1.5 0 0 1 13 1.5v6l-3.5 2L8 8.75l-1.5.75ZM1.059 3.635 2 3.133v3.753L0 5.713V5.4a2 2 0 0 1 1.059-1.765ZM16 5.713l-2 1.173V3.133l.941.502A2 2 0 0 1 16 5.4v.313Zm0 1.16-5.693 3.337L16 13.372v-6.5Zm-8 3.199 7.941 4.412A2 2 0 0 1 14 16H2a2 2 0 0 1-1.941-1.516L8 10.072Zm-8 3.3 5.693-3.162L0 6.873v6.5Z"/>
+            </svg> links</h6>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="link-nav" 
+                aria-current="page"
+                href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                  <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+                </svg>  Home
+              </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="link-nav" active"
+                aria-current="page"
+                href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-check-fill" viewBox="0 0 16 16">
+                  <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3Zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3Z"/>
+                  <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5v-1Zm6.854 7.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708Z"/>
+                </svg>  Serviços</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="link-nav" active"
+                aria-current="page"
+                href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                </svg>  Sobre</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="link-nav" active"
+                aria-current="page"
+                href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-paper-fill" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M6.5 9.5 3 7.5v-6A1.5 1.5 0 0 1 4.5 0h7A1.5 1.5 0 0 1 13 1.5v6l-3.5 2L8 8.75l-1.5.75ZM1.059 3.635 2 3.133v3.753L0 5.713V5.4a2 2 0 0 1 1.059-1.765ZM16 5.713l-2 1.173V3.133l.941.502A2 2 0 0 1 16 5.4v.313Zm0 1.16-5.693 3.337L16 13.372v-6.5Zm-8 3.199 7.941 4.412A2 2 0 0 1 14 16H2a2 2 0 0 1-1.941-1.516L8 10.072Zm-8 3.3 5.693-3.162L0 6.873v6.5Z"/>
+                </svg>  Contato</a>
+              </li>
+              </ul>
+            </div>
+              <div clas="col-md-5 mb-4">
+                <h6 class="display-6 mb-4 text-light"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="gold" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                  <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                  <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                </svg> Localização</h6>
+
+                <p class="text-light">Avenida Reinaldo, N123- Macapá/AP</p>
+                <p class="text-light">Atendimento de segunda a sexta das 8:30 ás 18:00hs</p>
+                
+                  </li>
+              </div>
+
+              <div clas="col-md-4 mb-4">
+                <h6 class="display-6 text-light"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="gold" class="bi bi-globe" viewBox="0 0 16 16">
+                  <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+                </svg> Redes Sociais</h6>
+                <p>
+<a class="link-nav" href="https//www.facebook.com/gledisonfonseca"
+target="-blank"><img src="img/face.png"width="20px"> facebook</a>
+                 </p>
+
+                 <p>
+                  <a class="link-nav" href="https//www.instagram.com/gledisonfonsecaprogramador"
+                  target="-blank"><img src="img/instagram.png"width="20px"> instagram</a>
+                   </p>
+
+                   <p>
+                    <a class="link-nav" href="https://api.whatsapp.com/send?phone=5596984223650&text=Ol%C3%A1%20bom%20ter%20voc%C3%AA%20aqui!%20como%20posso%20ajudar%3F"
+                    target="-blank"><img src="img/whatsapp.png"width="20px"> whatsapp</a>
+                     </p>
+
+                     <p>
+                      <a class="link-nav" href=mailto:fgledison@gmail.com?
+                      subject="link html"><img src="img/email.png"
+                      width="28px"> Email</a>
+                       </p>
+              </div>
+
+
+            
+          </div>
+         </div>
+
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
